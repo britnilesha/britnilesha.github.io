@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:700|Quattrocento+Sans');
+/*font-family: 'Alegreya', serif;
+font-family: 'Quattrocento Sans', sans-serif;*/
+
+body{
+	background-color: #262526;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:30px;
+} 
+
+header {
+    background-color: #F1EDF2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+	background-color: #F1EDF2;
+    padding: 20px;
+    float: right;
+}
+
+nav a{
+    font-family: 'Alegreya', serif;
+    font-size:1em;
+    color:#262526;
+    text-decoration:none;
+    margin:10px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+footer{
+	background-color: #262526;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+h2{
+	color:gold;
+	font-family: 'Alegreya', serif;
+	font-size:1.5em;
+
+}
+
+p{
+	color: white;
+}
+
+a{  font-family: 'Alegreya', serif;
+    font-size:1em;
+    color:#F1EDF2;
+    text-decoration:none;
+    text-align:center;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+#wrapper{
+	background-size: cover;
+}
+
+
+#about{
+    background-color: #262526;
+    border: 1px black solid;
+    padding: 20px;
+    font-color:#F1EDF2;
+    text-align:center;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#three_columns{
+	background-color: #F1EDF2;
+    border: 1px black solid;
+    color:262526;
+    padding: 10px
+    float:left;
+    height: auto;
+    display: table; 
+    width: 100%; 
+
+#three-columns>p{
+    color:#262526;
+}
+
+}
+
+#wigs{
+    border: 1px black solid;
+    padding: 10px;
+    width: 25%;
+    display: table-cell; 
+}
+
+#color{
+    border: 1px black solid;
+    padding: 10px;  
+    width: 25%;
+    display: table-cell; 
+}
+
+#makeup{
+    border: 1px black solid;
+    padding: 10px;
+    width: 25%;
+    display: table-cell; 
+}
+
+#base{
+	font-family: 'Alegreya', serif;
+	font-size:1.0em;
+	clear: both;
+}
+
