@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya:700|Quattrocento+Sans');
 /*font-family: 'Alegreya', serif;
 font-family: 'Quattrocento Sans', sans-serif;*/
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body{
-	background-color: #262526;
+	background-color: #f1edf2;
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-size:30px;
 } 
@@ -16,14 +16,15 @@ header {
 
 nav{
 	background-color: #F1EDF2;
-    padding: 20px;
-    float: right;
+	padding: 20px;
+	float: right;
+	/* text-align: right; */
 }
 
 nav a{
     font-family: 'Alegreya', serif;
     font-size:1em;
-    color:#262526;
+    color: #262526;
     text-decoration:none;
     margin:10px;
 }
@@ -34,22 +35,16 @@ nav a:hover{
 
 footer{
 	background-color: #262526;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: right;
 }
-
-
 h2{
 	color:gold;
 	font-family: 'Alegreya', serif;
 	font-size:1.5em;
 
 }
-
-p{
-	color: white;
-}
-
 a{  font-family: 'Alegreya', serif;
     font-size:1em;
     color:#F1EDF2;
@@ -71,10 +66,13 @@ a:hover{
     background-color: #262526;
     border: 1px black solid;
     padding: 20px;
-    font-color:#F1EDF2;
-    text-align:center;
+    color: #F1EDF2;
+    /* text-align:center; */
 }
-
+#about div {
+	max-width: 25em;
+	margin: auto;
+}
 
 .clearfix:after {
     visibility: hidden;
@@ -86,41 +84,19 @@ a:hover{
 }
 
 #three_columns{
-	background-color: #F1EDF2;
-    border: 1px black solid;
-    color:262526;
-    padding: 10px
-    float:left;
-    height: auto;
-    display: table; 
-    width: 100%; 
-
-#three-columns>p{
     color:#262526;
+    width:40em;
+    margin:auto;
+}
+#three_columns section {
+	width:33.33%;
+	float:left;
+	padding: 1em;
+}
+#three_columns img {
+	width:100%;
 }
 
-}
-
-#wigs{
-    border: 1px black solid;
-    padding: 10px;
-    width: 25%;
-    display: table-cell; 
-}
-
-#color{
-    border: 1px black solid;
-    padding: 10px;  
-    width: 25%;
-    display: table-cell; 
-}
-
-#makeup{
-    border: 1px black solid;
-    padding: 10px;
-    width: 25%;
-    display: table-cell; 
-}
 
 #base{
 	font-family: 'Alegreya', serif;
